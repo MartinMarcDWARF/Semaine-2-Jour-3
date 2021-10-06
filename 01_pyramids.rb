@@ -3,7 +3,13 @@ def wtf_pyramid
   print ">"
   etage=gets.chomp.to_i
   if !etage.odd?
-    puts "OMAE WA MU SHINDEIRU"
+    for i in "OMAE WA MU SHINDEIRU !\n".chars.to_a
+      print i
+      sleep 0.35
+    end
+    print "           ##\n           ##\n           ##\n           ##\n    ################\n           ##\n           ##\n           ##\n           ##\n           ##\n           ##\n           ##\n           ##\n"
+    sleep 0.2
+    
   else
   etage.times do |n|
    print " " * (etage - n)
