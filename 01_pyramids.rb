@@ -7,7 +7,7 @@ def wtf_pyramid
       print i
       sleep 0.35
     end
-    print "           ##\n           ##\n           ##\n           ##\n    ################\n           ##\n           ##\n           ##\n           ##\n           ##\n           ##\n           ##\n           ##\n"
+    print "           ##\n           ##\n           ##\n           ##\n    ################\n        ! NANI !          \n           ##\n           ##\n           ##\n           ##\n           ##\n           ##\n           ##\n"
     sleep 0.2
     
   else
